@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shizuru&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.banner-wrap{
+    background-image: url(./assets/FRhe-bgimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 100vh; */
+}
+.banner-container{
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.lg-font{
+    font-size: 35px;
+}
+.md-font{
+    font-size: 25px;
+}
+.sm-font{
+    font-size: 16px;
+}
+.vsm-font{
+    font-size: 10px;
+}
+.primary-col{
+    color: #ff0000;
+   
+}
+.navbar{
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+.navbar > img{
+    height: 400px;
+}
+.navbar > a{
+    padding: 7px 20px;
+    color: white;
+    background: red;
+    text text-decoration: none;
+}
