@@ -7,73 +7,187 @@
 
     <link rel="icon" href="assets/favicon.png" />
 
-    <title>Netflix Kenya - Watch TV</title>
+    <title>Netflix SA - Watch TV</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="responsive.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"    rel="stylesheet">
+    
+
   </head>
-
-  <body>
+<body>
     <div class="banner-wrap">
-      <!-- Navbar -->
-      <div class="navbar">
-        <img src="assets/logo.png" alt="Netflix Cover" />
-        <a href="https://www.netflix.com/ke-en/login" target="_blank"
-          >Sign In</a
-        >
-        <a href="./contact-us/contact-us.html">Contact us</a>
-      </div>
-      <div class="banner-container">
-        <h1>Unlimited movies, TV<br />shows, and more.</h1>
-        <h2>Watch anywhere. Cancel anytime.</h2>
+        <div class="overlay"></div>
+        <div class="navbar">
+            <img src="assets/logo.png" alt="Netflix logo">
+            <a href="https://www.netflix.com/za/login" target="_blank">Sign In</a>
+        </div>
+        <div class="banner-container">
+            <h1 class="card-title">Unlimited movies, TV shows, and more.</h1>
+            <h2 class="card-subtitle">Watch anywhere. Cancel anytime.</h2>
+            <form>
+                <h3 class="email-form-title">Ready to watch? Enter your email to create or restart your membership.</h3>
+                <div class="get-started-form">
+                    <input type="text" placeholder="Email address">
+                    <button class="starter">
+                        Get started  &gt;
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
 
-        <!-- Get started from-->
-        <form>
-          <h3>
-            Ready to watch? Enter your email to create or restart your
-            membership.
-          </h3>
-          <input type="text" />
-          <button>GET STARTED></button>
-        </form>
-      </div>
-    </div>
     <div class="info-container">
-      <h1>Enjoy on your TV.</h1>
-      <p>
-        Watch on Smart TVs, <strong>Playstation</strong>, Xbox, Chromecast,
-        Apple TV, Blu-ray players, and more.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus expedita possimus illum adipisci nihil aliquid? Veritatis laudantium explicabo fugiat, hic ea voluptatem illum enim voluptate alias quod. Quia, dolorum quod.
-        
-      </p>
-      <!-- Inline video-->
-      <video autoplay playsinline muted loop>
-        <source
-          src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
-          type="video/mp4"
-        />
-      </video>
+        <div class="info">
+            <h1 class="card-title">Enjoy on your TV.</h1>
+            <p class="card-subtitle">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+        </div>
+        <div class="tv-container">
+            <img src="/assets/tv.png" alt="tv image">
+            <video autoplay="" playsinline="" muted="" loop="" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4"> </video>
+        </div>
     </div>
-    <!-- This is the footer -->
+
+    <div class="phone-container">
+        <div class="phone-image">
+            <img src="/assets/mobile-0819.jpg" alt="Netflix phone image">
+        </div> 
+
+        <div class="word-phone">
+           <h1 class="card-title">Download your shows to watch offline.</h1>
+           <h2 class="card-subtitle">Save your favorites easily and always have something to watch.</h2>
+        </div>
+    </div>
+
+    <div class="streams">
+        <div class="command-streams">
+            <h1 class="card-title">Watch everywhere.</h1>
+            <br>
+            <h2 class="card-subtitle">Stream unlimited movies and TV shows on </h2>
+            <h2 class="card-subtitle">your phone, tablet, laptop, and TV.</h2>
+        </div>
+    </div>
+    
+    <div class="kids-profile">
+        <div class="kids-image">
+            <img src="assets/kids.png" alt="Netflix kids option">
+        </div>
+        <div class="kids-menu">
+            <h1 class="card-title">Create profiles for</h1>
+            <h1 class="card-title">kids.</h1>
+            <br>
+            <h2 class="card-subtitle">Send kids on adventures with their favorite</h2>
+            <h2 class="card-subtitle">characters in a space made just for them—free</h2>
+            <h2 class="card-subtitle">with your membership.</h2>
+        </div>
+    </div>
+    <div class="Questions">
+        <h1 class="card-title">Frequently Asked Questions</h1>
+        <ul class="FAQ-list">
+   
+            <li class="FAQ-list-item">
+                what is netflix?             
+            </li>
+            <li class="FAQ-list-item">
+                How much does Netflix cost?
+            </li>
+            <li class="FAQ-list-item">
+                    Where can I watch?
+            </li>
+            
+            <li class="FAQ-list-item">
+                    How do I cancel?
+            </li>
+            <li class="FAQ-list-item">
+                What can I watch on Netflix?
+            </li>
+            <li class="FAQ-list-item">
+                 Is Netflix good for kids?
+            </li>
+        </ul>
+        <h3 class="email-form-title-3">Ready to watch? Enter your email to create or restart your membership.</h3>
+        <div class="started-form-3">
+            <input type="text" placeholder="Email address">
+            <button class="starter">
+                Get started  &gt;
+            </button>
+        </div>
+    </div>
+
     <div class="footer">
-      <ul class="sm-font primary-col">
-        <li>FAQ</li>
-        <li>Help Center</li>
-        <li>Account</li>
-        <li>Media Center</li>
-        <li>Investor Relations</li>
-        <li>Jobs</li>
-        <li>Ways to Watch</li>
-        <li>Terms of Use</li>
-        <li>Privacy</li>
-        <li>Cookie Preferences</li>
-        <li>Corporate Information</li>
-        <li>Contact Us</li>
-        <li>Speed Test</li>
-        <li>Legal Notices</li>
-        <li>Netflix Originals</li>
-      </ul>
+        <div class="footer-items">
+            <div class="footer-top">
+                Questions? Call <a href="https://netflix-cape-town.netlify.app/">0 801-000-723</a>
+            </div>
+            <ul class="footer-links">
+                <li><a href="https://help.netflix.com/en/node/412">
+                     FAQ
+                    </a>
+                </li>
+                <li><a href="https://help.netflix.com/en/">
+                     Help Center
+                    </a>
+                </li>
+                <li><a href="https://www.netflix.com/za/login?nextpage=https%3A%2F%2Fwww.netflix.com%2Fyouraccount">
+                    Account
+                    </a>
+                </li>
+                <li><a href="https://media.netflix.com/en/">
+                    Media Center
+                    </a>
+                </li>
+                <li><a href="https://ir.netflix.net/ir-overview/profile/default.aspx">
+                   Investor Relations
+                    </a>
+                </li>
+                <li><a href="https://jobs.netflix.com/">
+                    Jobs
+                    </a>
+                </li>
+                <li><a href="https://www.netflix.com/za/redeem">
+                       Redeem Gift Cards
+                    </a>
+                </li>
+                <li><a href="https://devices.netflix.com/en/">
+                    Ways to Watch
+                    </a>
+                </li>
+                <li><a href="https://help.netflix.com/legal/termsofuse">
+                Terms of Use
+                    </a>
+                </li>
+                <li><a href="https://help.netflix.com/legal/privacy">
+                    Privacy
+                    </a>
+                </li><li><a href="https://netflix-cape-town.netlify.app/">
+                      Cookie Preferences
+                    </a>
+                </li><li><a href="https://help.netflix.com/legal/corpinfo">
+                     Corporate Information
+                    </a>
+                </li>
+                <li><a href="https://help.netflix.com/en/contactus">
+                      Contact Us
+                    </a>
+                </li>
+                <li><a href="https://fast.com/">
+                     Speed Test
+                    </a>
+                </li>
+                <li><a href="https://help.netflix.com/legal/notices">
+                     Legal Notices
+                    </a>
+                </li>
+                <li><a href="https://www.netflix.com/za/browse/genre/839338">
+                      Only on Netflix
+                    </a>
+                </li>
+            </ul>
+
+            <p class="footer-country">
+                Netflix - South Africa
+            </p>
+        </div>
     </div>
-  </body>
-</html>
+        
+
+</body></html>
